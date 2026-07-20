@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">mytaxdue dashboard</title>
+  <desc id="desc">A tax planning dashboard with estimated balance, compliance tasks, document vault, and accountant review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfcf8"/>
+      <stop offset="1" stop-color="#e4f2e8"/>
+    </linearGradient>
+    <linearGradient id="nav" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#18202d"/>
+      <stop offset="1" stop-color="#0d5548"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#18202d" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" rx="28" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1260" height="760" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="70" y="70" width="250" height="760" rx="24" fill="url(#nav)"/>
+  <rect x="70" y="770" width="250" height="60" fill="#0d5548"/>
+  <rect x="112" y="118" width="56" height="56" rx="12" fill="#ffffff"/>
+  <text x="122" y="152" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0d5548">MTD</text>
+  <text x="184" y="151" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff">mytaxdue</text>
+  <rect x="112" y="226" width="156" height="42" rx="10" fill="#ffffff" opacity="0.16"/>
+  <rect x="112" y="296" width="122" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+  <rect x="112" y="338" width="148" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+  <rect x="112" y="380" width="132" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+  <rect x="112" y="422" width="104" height="14" rx="7" fill="#ffffff" opacity="0.55"/>
+  <rect x="112" y="708" width="156" height="48" rx="12" fill="#c98c16"/>
+  <rect x="360" y="118" width="290" height="22" rx="11" fill="#18202d"/>
+  <rect x="360" y="158" width="450" height="14" rx="7" fill="#7e8a93"/>
+  <rect x="1070" y="116" width="190" height="46" rx="12" fill="#0d5548"/>
+  <text x="1110" y="145" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Export pack</text>
+  <rect x="360" y="220" width="390" height="228" rx="18" fill="#18202d"/>
+  <text x="392" y="272" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff">Estimated balance</text>
+  <text x="392" y="344" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">₦842k</text>
+  <rect x="392" y="385" width="105" height="30" rx="15" fill="#dff2e7"/>
+  <text x="414" y="405" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#0d5548">Review</text>
+  <rect x="520" y="385" width="146" height="30" rx="15" fill="#f7e5c4"/>
+  <text x="543" y="405" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#745114">3 gaps found</text>
+  <rect x="790" y="220" width="470" height="228" rx="18" fill="#f8fbf7" stroke="#dce2e0" stroke-width="2"/>
+  <text x="824" y="272" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18202d">Compliance tasks</text>
+  <rect x="824" y="310" width="368" height="22" rx="11" fill="#dce2e0"/>
+  <rect x="824" y="310" width="260" height="22" rx="11" fill="#15803d"/>
+  <rect x="824" y="365" width="34" height="34" rx="8" fill="#dff2e7"/>
+  <rect x="878" y="372" width="210" height="10" rx="5" fill="#18202d"/>
+  <rect x="878" y="392" width="280" height="10" rx="5" fill="#8a969e"/>
+  <rect x="824" y="420" width="34" height="34" rx="8" fill="#f7e5c4"/>
+  <rect x="878" y="427" width="185" height="10" rx="5" fill="#18202d"/>
+  <rect x="878" y="447" width="250" height="10" rx="5" fill="#8a969e"/>
+  <rect x="360" y="500" width="900" height="252" rx="18" fill="#ffffff" stroke="#dce2e0" stroke-width="2"/>
+  <text x="392" y="550" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#18202d">Document vault</text>
+  <g>
+    <rect x="392" y="588" width="250" height="110" rx="14" fill="#eef8f1"/>
+    <rect x="420" y="618" width="72" height="52" rx="10" fill="#15803d"/>
+    <rect x="520" y="622" width="92" height="12" rx="6" fill="#18202d"/>
+    <rect x="520" y="650" width="70" height="10" rx="5" fill="#8a969e"/>
+  </g>
+  <g>
+    <rect x="676" y="588" width="250" height="110" rx="14" fill="#fbf1df"/>
+    <rect x="704" y="618" width="72" height="52" rx="10" fill="#c98c16"/>
+    <rect x="804" y="622" width="112" height="12" rx="6" fill="#18202d"/>
+    <rect x="804" y="650" width="72" height="10" rx="5" fill="#8a969e"/>
+  </g>
+  <g>
+    <rect x="960" y="588" width="250" height="110" rx="14" fill="#f4e8e1"/>
+    <rect x="988" y="618" width="72" height="52" rx="10" fill="#bf5b3f"/>
+    <rect x="1088" y="622" width="102" height="12" rx="6" fill="#18202d"/>
+    <rect x="1088" y="650" width="76" height="10" rx="5" fill="#8a969e"/>
+  </g>
+</svg>

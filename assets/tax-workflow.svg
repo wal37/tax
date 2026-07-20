@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Tax workflow</title>
+  <desc id="desc">A workflow diagram showing income records, AI organisation, accountant review, and filing readiness.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e7f5ec"/>
+    </linearGradient>
+    <filter id="shadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#18202d" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="760" rx="24" fill="url(#background)"/>
+  <circle cx="550" cy="382" r="240" fill="#dff2e7"/>
+  <rect x="86" y="160" width="232" height="150" rx="18" fill="#ffffff" stroke="#dce2e0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="126" y="198" width="92" height="18" rx="9" fill="#18202d"/>
+  <rect x="126" y="244" width="152" height="12" rx="6" fill="#7e8a93"/>
+  <rect x="126" y="274" width="112" height="12" rx="6" fill="#dce2e0"/>
+  <circle cx="276" cy="216" r="30" fill="#15803d"/>
+  <rect x="434" y="106" width="232" height="150" rx="18" fill="#0d5548" filter="url(#shadow)"/>
+  <rect x="474" y="144" width="126" height="18" rx="9" fill="#ffffff"/>
+  <rect x="474" y="190" width="152" height="12" rx="6" fill="#ffffff" opacity="0.55"/>
+  <rect x="474" y="220" width="112" height="12" rx="6" fill="#ffffff" opacity="0.34"/>
+  <circle cx="624" cy="162" r="30" fill="#c98c16"/>
+  <rect x="782" y="160" width="232" height="150" rx="18" fill="#ffffff" stroke="#dce2e0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="822" y="198" width="122" height="18" rx="9" fill="#18202d"/>
+  <rect x="822" y="244" width="152" height="12" rx="6" fill="#7e8a93"/>
+  <rect x="822" y="274" width="120" height="12" rx="6" fill="#dce2e0"/>
+  <circle cx="972" cy="216" r="30" fill="#bf5b3f"/>
+  <rect x="264" y="474" width="232" height="150" rx="18" fill="#ffffff" stroke="#dce2e0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="304" y="512" width="128" height="18" rx="9" fill="#18202d"/>
+  <rect x="304" y="558" width="152" height="12" rx="6" fill="#7e8a93"/>
+  <rect x="304" y="588" width="102" height="12" rx="6" fill="#dce2e0"/>
+  <circle cx="454" cy="530" r="30" fill="#c98c16"/>
+  <rect x="604" y="474" width="232" height="150" rx="18" fill="#ffffff" stroke="#dce2e0" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="644" y="512" width="134" height="18" rx="9" fill="#18202d"/>
+  <rect x="644" y="558" width="152" height="12" rx="6" fill="#7e8a93"/>
+  <rect x="644" y="588" width="118" height="12" rx="6" fill="#dce2e0"/>
+  <circle cx="794" cy="530" r="30" fill="#15803d"/>
+  <path d="M318 235c46-36 82-52 116-56" fill="none" stroke="#0d5548" stroke-width="8" stroke-linecap="round" opacity="0.34"/>
+  <path d="M666 182c48 6 86 22 116 54" fill="none" stroke="#0d5548" stroke-width="8" stroke-linecap="round" opacity="0.34"/>
+  <path d="M898 310c-22 74-52 120-86 164" fill="none" stroke="#0d5548" stroke-width="8" stroke-linecap="round" opacity="0.34"/>
+  <path d="M604 548c-38 4-72 4-108 0" fill="none" stroke="#0d5548" stroke-width="8" stroke-linecap="round" opacity="0.34"/>
+  <path d="M378 474c-56-66-82-116-82-164" fill="none" stroke="#0d5548" stroke-width="8" stroke-linecap="round" opacity="0.34"/>
+  <text x="127" y="366" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#18202d">Income records</text>
+  <text x="468" y="314" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#18202d">AI organisation</text>
+  <text x="824" y="366" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#18202d">Tax estimate</text>
+  <text x="302" y="676" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#18202d">Expert review</text>
+  <text x="632" y="676" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#18202d">Filing pack</text>
+</svg>

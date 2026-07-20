@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mytaxdue | AI Tax Compliance Assistant</title>
+    <meta
+      name="description"
+      content="mytaxdue helps Nigerian taxpayers and businesses estimate tax exposure, organise documents, discover relief opportunities, and prepare for compliant filing."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#top" aria-label="mytaxdue home">
+        <span class="brand-mark">MTD</span>
+        <span>mytaxdue</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html#calculator">Calculator</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#accountants">Accountants</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <a class="header-action" href="index.html#contact">Get started</a>
+    </header>
+
+    <main id="top">
+      <section class="hero-shell" id="calculator">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Tax Optimization Platform</p>
+          <h1>Know what you owe before tax season.</h1>
+          <p class="lead">
+            mytaxdue helps individuals, freelancers, SMEs, and accountants
+            estimate tax exposure, organise records, find possible reliefs, and
+            prepare cleaner tax submissions.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="index.html#contact">Join the beta</a>
+            <a class="secondary-button" href="index.html#features">See features</a>
+          </div>
+          <div class="proof-strip" aria-label="Platform benefits">
+            <span><strong>5 min</strong> planning estimate</span>
+            <span><strong>AI</strong> document checklist</span>
+            <span><strong>Human</strong> expert review</span>
+          </div>
+        </div>
+
+        <section class="tax-card" aria-labelledby="estimateTitle">
+          <div class="card-toolbar">
+            <span class="status-dot"></span>
+            <span>Tax due planner</span>
+            <span class="toolbar-pill">Demo</span>
+          </div>
+          <form id="taxForm" class="tax-form">
+            <label>
+              Taxpayer type
+              <select id="taxpayerType">
+                <option value="individual">Individual / PAYE worker</option>
+                <option value="freelancer">Freelancer / Sole proprietor</option>
+                <option value="sme">Registered SME</option>
+              </select>
+            </label>
+            <label>
+              Annual income or revenue
+              <input id="grossIncome" type="number" min="0" step="1000" value="6500000" />
+            </label>
+            <label>
+              Allowable expenses
+              <input id="expenses" type="number" min="0" step="1000" value="1200000" />
+            </label>
+            <label>
+              Pension, reliefs, or allowances
+              <input id="reliefs" type="number" min="0" step="1000" value="650000" />
+            </label>
+            <label>
+              WHT, PAYE, or advance tax already paid
+              <input id="credits" type="number" min="0" step="1000" value="280000" />
+            </label>
+            <label>
+              Filing state
+              <select id="state">
+                <option>Lagos</option>
+                <option>Abuja FCT</option>
+                <option>Rivers</option>
+                <option>Kano</option>
+                <option>Ogun</option>
+                <option>Other Nigerian state</option>
+              </select>
+            </label>
+            <button class="primary-button wide-field" type="submit">Estimate tax due</button>
+          </form>
+          <div class="estimate-result" id="estimateResult">
+            <p id="estimateTitle" class="result-label">Estimated balance</p>
+            <strong id="taxDue">₦0</strong>
+            <span id="taxSummary">Complete the planner to view an estimate.</span>
+          </div>
+        </section>
+      </section>
+
+      <section class="dashboard-band">
+        <div class="dashboard-copy">
+          <p class="eyebrow">Product Dashboard</p>
+          <h2>One workspace for tax planning, filing preparation, and expert review.</h2>
+          <p>
+            Upload records, track due dates, organise deductible expenses, and
+            send a clean review pack to an accountant before filing.
+          </p>
+          <div class="mini-list">
+            <p><strong>Track what matters.</strong> Deadlines, obligations, and open tasks in one timeline.</p>
+            <p><strong>Know your likely bill.</strong> Estimate early and update as you add records.</p>
+            <p><strong>Share a clean pack.</strong> Export a review bundle your accountant can sign off faster.</p>
+          </div>
+        </div>
+        <img
+          src="assets/tax-dashboard.svg"
+          alt="mytaxdue dashboard showing tax estimate, compliance tasks, and documents"
+          class="dashboard-image"
+        />
+      </section>
+
+      <section class="features-section" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Tax compliance made calmer, clearer, and faster.</h2>
+          <p>
+            Built for people who want to understand their tax position before
+            the deadline and professionals who need cleaner client records.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">01</span>
+            <h3>AI tax forecast</h3>
+            <p>
+              Estimate likely tax exposure from income, expenses, credits, and
+              relief inputs before you file.
+            </p>
+          </article>
+          <article>
+            <span class="feature-icon">02</span>
+            <h3>Relief finder</h3>
+            <p>
+              Identify missing documents and possible deductible categories for
+              accountant review.
+            </p>
+          </article>
+          <article>
+            <span class="feature-icon">03</span>
+            <h3>Document vault</h3>
+            <p>
+              Store receipts, invoices, PAYE records, WHT notes, pension
+              evidence, and business expense files.
+            </p>
+          </article>
+          <article>
+            <span class="feature-icon">04</span>
+            <h3>Compliance calendar</h3>
+            <p>
+              Track filing deadlines, payment reminders, state obligations, and
+              document review tasks.
+            </p>
+          </article>
+          <article>
+            <span class="feature-icon">05</span>
+            <h3>Notice assistant</h3>
+            <p>
+              Summarise tax notices and generate a response checklist for your
+              accountant or tax adviser.
+            </p>
+          </article>
+          <article>
+            <span class="feature-icon">06</span>
+            <h3>Filing pack export</h3>
+            <p>
+              Package summaries, estimates, documents, and notes into a
+              professional review bundle.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="services-section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Support options for individuals and professionals.</h2>
+          <p>Use MyTaxDue self-serve tools, or choose a guided service when you want expert confidence.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">A</span>
+            <h3>Guided onboarding</h3>
+            <p>Set up categories, upload the right records, and build your first complete compliance checklist.</p>
+          </article>
+          <article>
+            <span class="feature-icon">B</span>
+            <h3>Accountant-ready review pack</h3>
+            <p>We help you prepare a clean summary, highlight gaps, and package documents for quick validation.</p>
+          </article>
+          <article>
+            <span class="feature-icon">C</span>
+            <h3>SME compliance support</h3>
+            <p>For small businesses: recurring document capture, PAYE/WHT organisation, and readiness check-ins.</p>
+          </article>
+        </div>
+      </section>
+      <section class="workflow-section">
+        <img
+          src="assets/tax-workflow.svg"
+          alt="Tax workflow from income records to expert review and filing readiness"
+          class="workflow-image"
+        />
+        <div>
+          <p class="eyebrow">How It Works</p>
+          <h2>From scattered records to a ready tax review pack.</h2>
+          <div class="workflow-list">
+            <p><strong>1. Add income and expenses.</strong> Capture salary, freelance income, business revenue, invoices, and deductions.</p>
+            <p><strong>2. Let AI organise the facts.</strong> mytaxdue groups documents, flags gaps, and builds a checklist.</p>
+            <p><strong>3. Review with a professional.</strong> Accountants can verify the estimate and prepare the final filing.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="accountant-section" id="accountants">
+        <div class="accountant-copy">
+          <p class="eyebrow">For Accountants</p>
+          <h2>A cleaner client intake system for tax professionals.</h2>
+          <p>
+            mytaxdue gives accountants a structured workspace for client data,
+            document requests, estimate review, and filing readiness.
+          </p>
+          <ul class="check-list">
+            <li>Client tax profile and document checklist</li>
+            <li>Income, expense, and relief summaries</li>
+            <li>Review notes and client follow-up tasks</li>
+            <li>Exportable filing preparation bundle</li>
+          </ul>
+        </div>
+        <div class="accountant-panel">
+          <h3>Accountant Review Queue</h3>
+          <div class="queue-item">
+            <span>FA</span>
+            <div>
+              <strong>Freelance analyst</strong>
+              <p>Needs WHT credit review and expense validation</p>
+            </div>
+            <em>High</em>
+          </div>
+          <div class="queue-item">
+            <span>SM</span>
+            <div>
+              <strong>SME retailer</strong>
+              <p>VAT records uploaded, payroll documents pending</p>
+            </div>
+            <em>Medium</em>
+          </div>
+          <div class="queue-item">
+            <span>PW</span>
+            <div>
+              <strong>PAYE worker</strong>
+              <p>Estimate complete, relief evidence ready</p>
+            </div>
+            <em>Ready</em>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Pricing</p>
+          <h2>Simple plans for taxpayers and tax teams.</h2>
+          <p>
+            Start with a planning estimate, then upgrade when you need document
+            automation, expert review, or accountant workflows.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <article>
+            <h3>Starter</h3>
+            <p class="price">₦0</p>
+            <p>Basic estimate, checklist, and reminders for personal planning.</p>
+            <a class="secondary-button" href="index.html#contact">Start free</a>
+          </article>
+          <article class="featured-plan">
+            <h3>Personal Plus</h3>
+            <p class="price">₦4,500<span>/month</span></p>
+            <p>Document vault, relief finder, estimate history, and expert-ready export.</p>
+            <a class="primary-button" href="index.html#contact">Join beta</a>
+          </article>
+          <article>
+            <h3>Accountant</h3>
+            <p class="price">Custom</p>
+            <p>Client workspace, review queue, team controls, and bulk filing preparation.</p>
+            <a class="secondary-button" href="index.html#contact">Talk to us</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="security-section">
+        <div>
+          <p class="eyebrow">Trust & Controls</p>
+          <h2>Built with expert review, privacy, and auditability in mind.</h2>
+          <p>
+            mytaxdue is designed as a planning and preparation layer. Final
+            filings should be reviewed by a qualified tax professional or the
+            relevant authority before submission.
+          </p>
+        </div>
+        <div class="security-grid">
+          <span>Encrypted document storage</span>
+          <span>Human tax professional review</span>
+          <span>Clear estimate assumptions</span>
+          <span>Client consent and export controls</span>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions.</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>Does mytaxdue file taxes directly?</summary>
+            <p>
+              The website demo prepares estimates and filing-ready information.
+              Direct filing would require approved integrations and professional
+              review before launch.
+            </p>
+          </details>
+          <details>
+            <summary>Is the calculator official tax advice?</summary>
+            <p>
+              No. It is a planning demo that helps users understand possible
+              exposure. Final tax positions should be verified by a qualified
+              adviser or tax authority.
+            </p>
+          </details>
+          <details>
+            <summary>Who is mytaxdue for?</summary>
+            <p>
+              Individuals, freelancers, SMEs, and accountants who need a clearer
+              way to organise tax information and prepare for compliance.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Join The Beta</p>
+          <h2>Bring AI tax planning to your clients or business.</h2>
+          <p>
+            Tell us what you need help with and the mytaxdue team will prepare
+            the right onboarding path.
+          </p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-grid">
+            <label>
+              Full name
+              <input id="leadName" type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              Email address
+              <input id="leadEmail" type="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              User type
+              <select id="leadType" required>
+                <option value="">Select one</option>
+                <option>Individual taxpayer</option>
+                <option>Freelancer</option>
+                <option>SME owner</option>
+                <option>Accountant / tax adviser</option>
+              </select>
+            </label>
+            <label>
+              City or state
+              <input id="leadLocation" type="text" placeholder="Lagos, Abuja, Port Harcourt..." required />
+            </label>
+            <label class="wide-field">
+              What do you want mytaxdue to help with?
+              <textarea
+                id="leadMessage"
+                rows="5"
+                placeholder="Example: estimate PAYE, organise business receipts, prepare VAT records, review WHT credits..."
+                required
+              ></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button class="primary-button" type="submit">Submit request</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>mytaxdue AI Tax Compliance Assistant</span>
+      <span>Planning estimates only. Final tax filings require professional review.</span>
+    
+      <div class="footer-links" style="margin-top:10px; display:flex; gap:14px; flex-wrap:wrap">
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
